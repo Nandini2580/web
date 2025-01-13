@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Places</title>
+    <style>
+        
+        body {
+            font-family: cursive;
+            margin: 0;
+            padding:0;
+             /* background-color: #f4f4f4;  */
+            background-color: rgb(232, 205, 205);
+            color: #fec8c8;
+            position:relative;
+        }
+
+        header {
+            background-image: url('https://d2jdgazzki9vjm.cloudfront.net/tourist-places/images/tourist-places-in-andhra-pradesh1.jpg');
+            color: #232121;
+            padding:1px 1px;
+            text-align: center;
+            font-family: "Manrope Bold", sans-serif;
+        }
+        
+        main{
+            padding:10px;
+            display:grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+    
+        .place {
+            /* background: #fff; */
+            background-color: rgb(234, 111, 111);
+            margin:10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(79, 67, 67, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-width: 5px;
+            color:rgb(55, 38, 38);
+        }
+        .place h2 {
+            margin-top: 0;
+            text-align: center;
+            color:rgb(23, 25, 18);
+    
+        }
+        .place img {
+            max-width: 60%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .place a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #3d81bb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .place a:hover {
+            text-decoration: underline;
+        }
+        p{
+            color:rgb(52, 52, 52);
+        }
+        footer{
+            background-color:hsl(0, 3%, 13%);
+            position:absolute;
+            width:100%;
+            bottom:0;
+            font-size: 15px;
+            padding: 10px;
+            text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+         </style>
+</head>
+<body>
+    <header>
+        <h1>Famous Historical Places</h1>
+    </header> 
+    <main>
+         <div class="place">
+            <h2> Great Wall of China</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO20sUMM7Ksmh5XL7ZopFMUAUWLvdLvwp5mX6SBWbFinpSXG3X" >
+            <p>The Great Wall of China, a UNESCO World Heritage Site, stretches over 13,000 miles and was built to protect China from invasions and raids.</p>
+            <a href="https://en.wikipedia.org/wiki/Gate_of_China,_Beijing">More details</a>
+        </div>
+
+        <div class="place">
+            <h2> Taj Mahal</h2>
+            <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRE4niXp5tZ9oC5eTKmK2MmYuo7N6wo1PqqRcWybS1pCO3Cbz-CuUmT5jmzUBLHe1s6Xz1QmYX94cYWMi0k7b3LmO3kGqeVqFOF68q29jQ" >
+            <p>Located in Agra, India, the Taj Mahal is an iconic mausoleum built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal.</p>
+            <a href="https://en.wikipedia.org/wiki/Taj_Mahal">More details</a>
+        </div> 
+
+        <div class="place">
+            <h2> Machu Picchu</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/405px-Machu_Picchu%2C_Peru.jpg" >
+            <p>Machu Picchu is an ancient Incan city located high in the Andes Mountains of Peru, known for its sophisticated dry-stone construction.</p>
+            <a href="https://en.wikipedia.org/wiki/Machu_Picchu">More details</a>
+        </div>
+
+        <div class="place">
+            <h2> Pyramids of Giza</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/450px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg" >
+            <p>The Pyramids of Giza, located near Cairo, Egypt, are ancient tombs built for Pharaohs, including the Great Pyramid of Khufu.</p>
+            <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">More details</a>
+        </div>
+
+         <div class="place">
+            <h2> Colosseum</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ4TRe5bNPOJi9uSX2biNU8G7vd6StrClnJsmx9fBFcyRSGZKWPYd3hI2p2EUl2dUyJf8kEo7zcknBcQX3LfPSmPDKjGCVq2SfgPW3RVA">
+            <p>The Colosseum in Rome, Italy, is an ancient amphitheater that hosted gladiatorial contests and public spectacles during the Roman Empire.</p>
+            <a href="https://en.wikipedia.org/wiki/Colosseum">More details</a>
+        </div>
+
+        <div class="place">
+            <h2> Petra</h2>
+            <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSBxOmm-iC7wCAIkmVfBYG-DEk7i-_kTqpF2HY3uQDubkBt9nORRJhHzFa8SyojZB4VYZHXcwxOKmLNm-QgQZMBJL8P3K-CZmBD62EB7Q" >
+            <p>Petra, located in Jordan, is an archaeological site famous for its rock-cut architecture and water conduit system.</p>
+            <a href="https://en.wikipedia.org/wiki/Petra">More details</a>
+        </div>
+
+        <div class="place">
+            <h2> Stonehenge</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQESuA5yNvwlENwuW-QcCQK7N0SBMo5aUxa55oZRr3leP3rZHkcW4ERDZY3qOg05_sxW__tE-G6f8ulGT9yTKRsQth42dcCBr5-W7Ml1w">
+            <p>Stonehenge, in England, is a prehistoric monument consisting of a ring of standing stones, believed to have been constructed as a ceremonial site.</p>
+            <a href="https://en.wikipedia.org/wiki/Stonehenge">More details</a>
+        </div>
+
+        <div class="place"> 
+         <h2> Angkor Wat</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRJ_YZbmrHdeSkHP-PSfQ6yURKRiAsuzKNAekTtn8ILrODpzDtn1nIVAGqGN9esAuQaVlQRsaJ_RVMOlqCx2Fdlv3q1s2GbaO_Y_7e1Ig">
+            <p>Angkor Wat, in Cambodia, is the largest religious monument in the world and a stunning example of Khmer architecture.</p>
+            <a href="https://en.wikipedia.org/wiki/Angkor_Wat">More details</a>
+        </div>
+        <footer>
+            <div>Designed and developed by Nandini.Javvadi</div>
+
+        </footer>
+    </main>
+</body>
+</html>
